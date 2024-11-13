@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* Cor do texto */
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 50px; /* Borda arredondada estilo cápsula */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-capsule {
+    font-weight: bold; /* Deixe o texto em negrito */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+}
+
+.btn:hover {
+    background-color: #d7dde4; /* Cor de fundo ao passar o mouse */
+}
